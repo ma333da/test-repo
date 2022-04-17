@@ -109,11 +109,11 @@ while game:
 
     display.update()
     clock.tick(FPS)
-    # if finish != True:
-    #     window.blit(background,(0, 0))
-    #     player.update()
-    #     monster.update()
-    #
+    if finish != True:
+        window.blit(background,(0, 0))
+        player.update()
+        monster.update()
+    
     #     player.reset()
     #     monster.reset()
     #     final.reset()
