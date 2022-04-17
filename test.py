@@ -4,7 +4,7 @@ from pygame import *
 #класс-родитель для спрайтов 
 class GameSprite(sprite.Sprite):
     #конструктор класса
-    def __init__(self, player_image, player_x, player_y, player_speed):
+    # def __init__(self, player_image, player_x, player_y, player_speed):
         super().__init__()
  
         # каждый спрайт должен хранить свойство image - изображение
